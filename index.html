@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.min.css">
 </head>
-<body ng-app="main.module">
-<header-page></header-page>
-<div class="container">
-    <div ng-view></div>
-</div>
-<footer></footer>
+<body ng-app="main.module" ng-class="{ 'dark-bg': $root.darkBg }">
+    <header-page ng-if="!$root.hideHeader"></header-page>
+    <div ng-class="{ 'container': !$root.noContainer }">
+        <div ng-view></div>
+    </div>
+    <footer ng-if="!$root.hideFooter"></footer>
 </body>
 
 <script src="js/lib.min.js"></script>
