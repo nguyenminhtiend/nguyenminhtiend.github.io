@@ -8,10 +8,10 @@
 </head>
 <body ng-app="main.module" ng-class="{ 'dark-bg': $root.darkBg }">
     <header-page ng-if="!$root.hideHeader"></header-page>
-    <div ng-class="{ 'container': !$root.noContainer }">
+    <div id="root-container" ng-class="{ 'container': !$root.noContainer }">
         <div ng-view></div>
     </div>
-    <footer ng-if="!$root.hideFooter"></footer>
+    <footer-page class="footer-wrap container" ng-if="!$root.hideFooter"></footer-page>
 </body>
 
 <script src="js/lib.min.js"></script>
