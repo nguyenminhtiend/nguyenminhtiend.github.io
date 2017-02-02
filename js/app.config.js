@@ -1,1 +1,0 @@
-!function(e){e.env=e.env||{},e.env.apiUrl="http://ec2-52-77-214-252.ap-southeast-1.compute.amazonaws.com",e.env.footerHTML=["<p>Copyright © ST Logistics Pte Ltd 2017 All rights reserved</p>",'<p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>']}(this);
