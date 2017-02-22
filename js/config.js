@@ -4,6 +4,7 @@
 
     window.env.apiUrl = 'http://ec2-52-77-214-252.ap-southeast-1.compute.amazonaws.com';
 
+    window.env.defaultTimeZone = '+0800';
     window.env.addNewItemReference = 'A4 size is 21 x 29.7 cm, A5 size is 14.8 x 21 cm';
     window.env.defaultFixedRunPricing = [
         {
