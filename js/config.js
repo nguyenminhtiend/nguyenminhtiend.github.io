@@ -8,11 +8,11 @@
     window.env.addNewItemReference = 'A4 size is 21 x 29.7 cm, A5 size is 14.8 x 21 cm';
 
     window.env.healthCareServiceNote = {
-        hCOfficeHour: {value: 5, display: 'Weekday Office Hour', notes: ['Mon - Fri: 8.30am to 5.30pm <br/> Cut-Off Timing 12.30pm', 'Sat: 8.30am to 12.00pm <br/> Cut-Off Timing: Fri 5pm']},
-        hCOfficeHourExpress: {value: 6, display: 'Weekday Office Hour Express', notes: ['Same day deliveries that exeed the cut-off timing will be subjected to the experss delivery price']},
-        hCWeekdayEvening: {value: 7, display: 'Weekday Evening', notes: ['Mon - Fri: 5.30pm to 10.00pm <br/> Cut-Off Timing 5pm', 'Sat: 12.00pm to 10.00pm <br/> Cut-Off Timing: Fri 5pm']},
-        hCWeekdayEveningExpress: {value: 8, display: 'Weekday Evening Express', notes: ['Same day deliveries that exeed the cut-off timing will be subjected to the experss delivery price']},
-        hCWeekend: {value: 9, display: 'Weekend, Weekend Evening & Public Holiday', notes: ['Mon - Sat: 10pm onwards', 'Sun & PH']}
+        hCOfficeHour: {value: 5, display: 'Office Hours', notes: ['Mon - Fri: 8.30am to 5.30pm <br/> Cut-Off Timing 12.30pm', 'Sat: 8.30am to 12.00pm <br/> Cut-Off Timing: Fri 5pm']},
+        hCOfficeHourExpress: {value: 6, display: 'Office Hours (Express)', notes: ['Same day deliveries that exeed the cut-off timing will be subjected to the experss delivery price']},
+        hCWeekdayEvening: {value: 7, display: 'After Office Hours', notes: ['Mon - Fri: 5.30pm to 10.00pm <br/> Cut-Off Timing 5pm', 'Sat: 12.00pm to 10.00pm <br/> Cut-Off Timing: Fri 5pm']},
+        hCWeekdayEveningExpress: {value: 8, display: 'After Office Hours (Express)', notes: ['Same day deliveries that exeed the cut-off timing will be subjected to the experss delivery price']},
+        hCWeekend: {value: 9, display: 'Late Night, Sun & PH', notes: ['Mon - Sat: 10pm onwards', 'Sun & PH']}
     };
 
     window.env.defaultFixedRunPricing = [
