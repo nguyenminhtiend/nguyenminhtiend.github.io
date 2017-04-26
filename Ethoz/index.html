@@ -5,9 +5,9 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/styles.min.css">
 </head>
-<body ng-class="routeClassName" ng-app="main.module" >
+<body ng-class="{'login-body': $root.loginPage}" ng-app="main.module" >
 <header-page></header-page>
-<div class="container">
+<div class="container" >
     <div ng-view></div>
 </div>
 <footer-page></footer-page>
