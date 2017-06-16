@@ -1,22 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>LVLUP</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="description" content="NG6-Starter by @AngularClass">
-    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-     <!--<link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">-->
-    <base href="/">
-  </head>
-  <body ng-app="app" ng-strict-di ng-cloak>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
+</head>
+<body ng-app="main.module" ng-class="{ 'dark-bg': $root.darkBg }">
+<div class="container-wrapper">
+    <header-page ng-if="!$root.hideHeader"></header-page>
+    <div id="root-container" ng-class="{ 'container': !$root.noContainer }">
+        <div ng-view></div>
+    </div>
+    <footer-page class="footer-wrap container" ng-if="!$root.hideFooter"></footer-page>
+</div>
+</body>
 
-    <app>
-    </app>
+<script src="js/lib.min.js"></script>
 
+<script src="js/config.js"></script>
 
-  <script src="vendor.bundle.js?e2c4ba705c7c6e0efb47"></script><script src="app.bundle.js?e2c4ba705c7c6e0efb47"></script></body>
+<script src="js/app.min.js"></script>
+<script src="js/templates.min.js"></script>
 </html>
