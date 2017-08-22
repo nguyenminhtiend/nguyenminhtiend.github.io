@@ -2,8 +2,8 @@
 
     window.env = window.env || {};
 
-    //window.env.apiUrl = 'http://ec2-13-228-23-234.ap-southeast-1.compute.amazonaws.com';
-    window.env.apiUrl = 'http://localhost:54516';
+    window.env.apiUrl = 'http://ec2-13-228-23-234.ap-southeast-1.compute.amazonaws.com';
+    //window.env.apiUrl = 'http://localhost:54516';
 
     window.env.defaultTimeZone = '+0800';
     window.env.addNewItemReference = 'A4 size is 21 x 29.7 cm, A5 size is 14.8 x 21 cm';
