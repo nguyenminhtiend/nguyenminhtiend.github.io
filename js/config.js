@@ -423,7 +423,7 @@
   ];
 
   window.env.footerHTML = [
-    '<p>Copyright © ST Logistics Pte Ltd 2017 All rights reserved</p>',
+    '<p>Copyright © ST Logistics Pte Ltd 2019 All rights reserved</p>',
     '<p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>'
   ];
 })(this);
