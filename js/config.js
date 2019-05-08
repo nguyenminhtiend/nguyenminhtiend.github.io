@@ -19,7 +19,7 @@
     hCOfficeHourExpress: {
       value: 6,
       display: 'Office Hours (Express)',
-      notes: ['Same day deliveries that exeed the cut-off timing will be subjected to the experss delivery price']
+      notes: ['Same day deliveries that exceed the cut-off timing will be subjected to the express delivery price']
     },
     hCWeekdayEvening: {
       value: 7,
@@ -32,7 +32,7 @@
     hCWeekdayEveningExpress: {
       value: 8,
       display: 'After Office Hours (Express)',
-      notes: ['Same day deliveries that exeed the cut-off timing will be subjected to the experss delivery price']
+      notes: ['Same day deliveries that exceed the cut-off timing will be subjected to the express delivery price']
     },
     hCWeekend: { value: 9, display: 'Late Night, Sun & PH', notes: ['Mon - Sat: 10pm onwards', 'Sun & PH'] }
   };
