@@ -11,7 +11,9 @@
     { text: '4-5kg', weightFrom: 4, weightTo: 5, threeHour: 'T007', sameDay: 'T008', nextDay: 'T009' },
     { text: '5-10kg', weightFrom: 5, weightTo: 10, threeHour: 'T010', sameDay: 'T011', nextDay: 'T012' },
     { text: '10-20kg', weightFrom: 10, weightTo: 20, threeHour: 'T013', sameDay: 'T014', nextDay: 'T015' },
-    { text: 'above20kg', weightFrom: 20, threeHour: 'T016', sameDay: 'T017', nextDay: 'T018' }
+    { text: 'above20kg', weightFrom: 20, threeHour: 'T016', sameDay: 'T017', nextDay: 'T018' },
+    { text: 'restrictedArea', code: 'T019' },
+    { text: 'eveningWeekendHoliday', code: 'T020' }
   ];
 
   window.env.gBizCodePSSFixedRun = [{
