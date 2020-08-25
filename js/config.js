@@ -5,7 +5,7 @@
 
   window.env.defaultTimeZoneOffset = 480;//+08:00 
   window.env.addNewItemReference = 'A4 size is 21 x 29.7 cm, A5 size is 14.8 x 21 cm';
-  window.env.creditNoteDate = 26; //from 26th -> end of month
+  window.env.creditNoteDate = 25; //from 26th -> end of month
   window.env.healthCareServiceNote = {
     hCOfficeHour: {
       value: 5,
