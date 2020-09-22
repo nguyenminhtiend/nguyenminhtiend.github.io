@@ -421,6 +421,44 @@
     }
   ];
 
+  window.env.defaultAdhocPricing = {
+    pricingType: 1,
+    weightCategories: [
+      {
+        weightCategoryId: 1,
+        weightCategory: 'UP TO 3KG AND WITHIN 40x25x15 CM IN DIMENSION',
+        deliveryTimings: [{ deliveryTimingId: 1, rate: 19 }, { deliveryTimingId: 2, rate: 14 }, { deliveryTimingId: 3, rate: 12.5 }]
+      },
+      {
+        weightCategoryId: 2,
+        weightCategory: 'Up to 4kg',
+        deliveryTimings: [{ deliveryTimingId: 1, rate: 21 }, { deliveryTimingId: 2, rate: 15.5 }, { deliveryTimingId: 3, rate: 13.5 }]
+      },
+      {
+        weightCategoryId: 3,
+        weightCategory: 'More than 4kg and up to 5kg',
+        deliveryTimings: [{ deliveryTimingId: 1, rate: 23 }, { deliveryTimingId: 2, rate: 17 }, { deliveryTimingId: 3, rate: 15 }]
+      },
+      {
+        weightCategoryId: 4,
+        weightCategory: 'More than 5kg and up to 10kg',
+        deliveryTimings: [{ deliveryTimingId: 1, rate: 27 }, { deliveryTimingId: 2, rate: 22 }, { deliveryTimingId: 3, rate: 18 }]
+      },
+      {
+        weightCategoryId: 5,
+        weightCategory: 'More than 10kg and up to 20kg',
+        deliveryTimings: [{ deliveryTimingId: 1, rate: 40 }, { deliveryTimingId: 2, rate: 29.5 }, { deliveryTimingId: 3, rate: 28.5 }]
+      },
+      {
+        weightCategoryId: 6,
+        weightCategory: 'ADDITIONAL RATE ABOVE 20KG',
+        deliveryTimings: [{ deliveryTimingId: 1, rate: 1.5 }, { deliveryTimingId: 2, rate: 1.2 }, { deliveryTimingId: 3, rate: 1 }]
+      }
+    ],
+    additionalRestrictedArea: 10,
+    additionalAfterOfficeHr: 19
+  };
+
   window.env.footerHTML = [
     '<p>Copyright © ST Logistics Pte Ltd 2019 All rights reserved</p>',
     '<p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>'
